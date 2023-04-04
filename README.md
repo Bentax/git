@@ -98,3 +98,7 @@ git merge origin/main
 ```bash
 git pull
 ```
+- Отправить изменения в `remote repo`
+```bash
+git push
+```
