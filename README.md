@@ -77,7 +77,7 @@ git co master
 git merge <branch>
 ```
 Теперь ветки branch и master идентичны
-- Извлечение изменений из удалённого репозитория
+Извлечение изменений из удалённого репозитория
 ```bash
 git fetch
 ```
@@ -90,7 +90,7 @@ git hist --all
 * 859c681 2023-04-04 | Update README.md [Andrey Kuzin]
 * f5871ca 2023-04-04 | Create README.md [Andrey Kuzin]
 ```
-- Слить извлеченные изменения в локальную ветку master
+Слить извлеченные изменения в локальную ветку master
 ```bash
 git merge origin/main
 ```
