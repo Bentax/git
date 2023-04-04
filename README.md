@@ -77,3 +77,24 @@ git co master
 git merge <branch>
 ```
 Теперь ветки branch и master идентичны
+- Извлечение изменений из удалённого репозитория
+```bash
+git fetch
+```
+Коммиты из удалённого репозитория видны в локальном:
+```bash
+git hist --all
+* 01b623f 2023-04-04 | Update README.md (origin/main, origin/HEAD) [Andrey Kuzin]
+* f7c2e1c 2023-04-04 | Update README.md [Andrey Kuzin]
+* 9033eb7 2023-04-04 | Update README.md (HEAD -> main) [Andrey Kuzin]
+* 859c681 2023-04-04 | Update README.md [Andrey Kuzin]
+* f5871ca 2023-04-04 | Create README.md [Andrey Kuzin]
+```
+- Слить извлеченные изменения в локальную ветку master
+```bash
+git merge origin/main
+```
+- Объединение fetch & merge в одну команду
+```bash
+git pull
+```
