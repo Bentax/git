@@ -1,4 +1,4 @@
-![Crowdfunding](https://i.ibb.co/k6pj0Qt/htum-6.png)
+![Crowdfunding](https://i.stack.imgur.com/zBb51.png)
 # Git tutorial
 - Создаём папку проекта и переходим в неё
 ```bash
