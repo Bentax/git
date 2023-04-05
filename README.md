@@ -1,6 +1,5 @@
 # Git tutorial
 ![Git](https://i.stack.imgur.com/zBb51.png)
-# Git tutorial
 - Создаём папку проекта и переходим в неё
 ```bash
 mkdir folder && cd folder
