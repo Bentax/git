@@ -1,4 +1,4 @@
-# Git
+# Git2
 - Создаём папку проекта и переходим в неё
 ```bash
 mkdir folder && cd folder
